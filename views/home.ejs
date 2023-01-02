@@ -1,0 +1,13 @@
+<%- include('partials/header'); -%>
+
+<form action="/" method="post">
+  <p class="page-title">Home</p>
+  <p><%= startingContent %></p>
+
+  <% Eposts.forEach(Epost => { %>
+    <p class="page-title"><%= Epost.title %></p>
+    <p class><%= Epost.content %></p>
+    <% }); %>   
+</form>
+
+<%- include('partials/footer'); -%>
