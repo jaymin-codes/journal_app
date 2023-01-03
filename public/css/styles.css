@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .navbar-brand{
     font-size: 1.7rem;
     font-weight: 400;
@@ -18,7 +21,6 @@
     color: #1abc9c !important;
 }
 
-
 .page-title{
     padding-top: 20px;
     font-size: 1.9rem;
@@ -26,7 +28,7 @@
 }
 
 .footer-padding {
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 }
 
 .footer {
@@ -34,12 +36,12 @@
 	text-align: center;
 	bottom: 0;
 	width: 100%;
-	height: 60px;
+	height: 40px;
 	background-color: #1abc9c;
 }
 
 .footer p {
-	margin-top: 19px;
-	font-size: 15px;
+	margin-top: 9px;
+	font-size: 13px;
     color: black;
 }

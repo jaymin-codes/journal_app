@@ -6,7 +6,7 @@
 
   <% Eposts.forEach(Epost => { %>
     <p class="page-title"><%= Epost.title %></p>
-    <p class><%= Epost.content %></p>
+    <p><%= Epost.content.substring(0,100)%> ..... <a href="/post/<%= Epost.title %>">Read More</a></p>
     <% }); %>   
 </form>
 
